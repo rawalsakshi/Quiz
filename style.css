@@ -1,0 +1,138 @@
+
+body{
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+}
+
+#mainquizHeading{
+  text-align: center;
+  text-decoration-color: white;
+  font-size: 55px;
+  color:white;
+}
+#quizHeading{
+  color:#47696b;
+}
+
+#startPage h2{
+  padding-top: 5vh;
+  color: #47696b;
+}
+
+#note{
+  color: #47696b; 
+  margin-top: 25px;
+}
+
+.quiz-container{
+  position: relative;
+  height:70vh;
+  width:70vw;
+  border-radius: 10px;
+  background-color:antiquewhite;
+  margin-left: 15vw;
+}
+
+.question{
+  color:white;
+  background-color:#47696b;
+  font-size: 32px;
+  margin-top: 5vh;
+  margin-bottom: 25px;
+  text-align: center;
+  border-style:double;
+  border-radius: 50px;
+  width:45vw;
+  padding: 15px;
+  margin-left: 12.5vw;
+  margin-right: 5vw;
+
+}
+.answers {
+  color:white;
+  font-size: 27px;
+  text-align: left;
+  display: inline-block;
+  text-align: left;
+  width:40vw;
+}
+.answers label{
+  margin-bottom: 0rem;
+  background-color: #47696b;
+  border-style: double;
+  border-radius: 50px;
+  display: block;
+  padding: 15px;
+}
+.answers label:hover{
+  background-color:#3388aa;
+}
+
+.custom-control-indicator {
+  width: 2rem;
+  height: 2rem;
+  top:20;
+  left:20;
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  color: #fff;
+  background-color: #3388aa;
+}
+
+.custom-control-description{
+  margin-left: 40px;
+}
+
+#resultDisplay{
+  margin-top: 10vh; 
+  height: 40vh;
+  display: inline-block;
+}
+
+#mainButton{
+  background-color:#47696b;
+}
+
+button{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: #38a;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  background-color: #38a;
+}
+
+#buttons{
+  margin-top: 3vh;
+}
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.card{
+      width: 30rem;
+    height: 18rem;
+    background-color: #47696b;
+    color: white;
+}
+

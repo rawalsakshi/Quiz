@@ -45,10 +45,10 @@ function QuizStarted(){
           answers.push(
             `<div>
               <label class="custom-control custom-radio">
-                 <input type="radio" class="custom-control-input" name="question${questionNumber}" value="${letter}">
-                 <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">
-                  ${currentQuestion.answers[letter]}</span>
+                <input type="radio" class="custom-control-input" name="question${questionNumber}" value="${letter}">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">
+                ${currentQuestion.answers[letter]}</span>
               </label>
             </div>`
           );

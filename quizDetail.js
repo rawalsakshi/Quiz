@@ -108,6 +108,7 @@ function QuizStarted(){
       }
 
       previousButton.style.display = "none";
+      nextButton.style.display="none";
       submitButton.style.display = "none";
       resetButton.style.display = "none";
       document.getElementById("mainquizHeading").style.color="#465d63";

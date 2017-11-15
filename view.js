@@ -8,7 +8,7 @@
 			    <h2 style="padding-top: 2vh">Click on button to start Quiz</h2>
 			    <button id="mainButton" onclick="APP.init()" style="margin-top:12vh">Start Quiz</button>
 			    <p id="note">Note: Quiz contains 15 questions.</p>
-			    <p id="note"> &nbsp; &nbsp; &nbsp; Quiz Timmmings : 2 mins</p>
+			    <p id="note"> &nbsp; &nbsp; &nbsp; Quiz Timmmings : 5 mins</p>
 			</div>`;
 
 			return startPageTemplate;

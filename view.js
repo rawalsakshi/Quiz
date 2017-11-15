@@ -35,9 +35,9 @@
 	    }
 
 
-	    this.getAnswersTemplate = function(questionNumber,letter,currentQuestionAnswer){
+	    this.getAnswersTemplate = function(questionNumber,letter,currentQuestionAnswer) {
 	    	if(questionNumber<4) {
-                const ansTemplate = `<div>
+            	const ansTemplate = `<div>
 		            <label class="custom-control custom-checkbox">
 		                <input type="checkbox" class="custom-control-input" name="question${questionNumber}" value="${letter}">
 		                	<span class="custom-control-indicator"></span>

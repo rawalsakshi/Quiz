@@ -67,5 +67,5 @@
 	      	return quesTemplate;
 	    }
   	}
-
+	
 })(window.APP = window.APP || {});

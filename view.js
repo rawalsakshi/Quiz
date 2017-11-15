@@ -3,7 +3,6 @@
     APP.View = new function() {
 
 	  	this.getStartPageTemplate = function() { 
-
 	  		const startPageTemplate = `<div id="startPage">
 				<h2>Ready for Fun Quiz!!</h2>
 			    <h2 style="padding-top: 2vh">Click on button to start Quiz</h2>
@@ -15,9 +14,7 @@
 			return startPageTemplate;
 		}
 
-
 	    this.getResultTemplate = function(numCorrectAns) {
-
 	    	const resultTemplate = `<div id="resultDisplay">
 	        	<div class="card" style="width: 30rem; height:15rem">
 	            	<div class="card-header">
@@ -33,7 +30,6 @@
 
 	        return resultTemplate;
 	    }
-
 
 	    this.getAnswersTemplate = function(questionNumber,letter,currentQuestionAnswer) {
 	    	if(questionNumber<4) {
@@ -63,7 +59,6 @@
 	    }
 
 	    this.getQuesTemplate = function(questionNumber,currentQuestion,answers){
-
 	      	const quesTemplate = `<div class="slide">
 	       		  <div class="question"> ${questionNumber+1}. ${currentQuestion} </div>
 	        	  <div class="answers"> ${answers.join("")} </div>

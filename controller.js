@@ -2,7 +2,7 @@
 
     APP.Controller = new function() {
 
-        quizHeading.value = 2 + ":" + 00;
+        quizHeading.value = 5 + ":" + 00;
 
         this.startQuiz = function() {
             quizContainer.innerHTML = APP.View.getStartPageTemplate();

@@ -28,5 +28,5 @@ const quizContainer = document.getElementById("quiz"),
 
 	    }); 
 	}
-
+	
 })(window.APP = window.APP || {});

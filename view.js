@@ -41,7 +41,7 @@
 		                	${currentQuestionAnswer}</span>
 		            </label>
 		        </div>`;
-
+				
 		        return ansTemplate;  
 
 			} else {

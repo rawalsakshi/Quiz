@@ -30,5 +30,5 @@
 		    quizContainer.innerHTML = output.join("");
 		}
     }
-
+	
 })(window.APP = window.APP || {});
